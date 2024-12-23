@@ -9,7 +9,7 @@ baseurl: "" # Keep this empty if hosted on GitHub Pages
 url: "https://siratchi-business.github.io/azzeddinehabib.github.io/"
 
 # Theme Configuration
-theme: "minimal-mistakes-jekyll" # Change the theme here if needed
+theme: "minimal-jekyll" # Change the theme here if needed
 
 # Social Media Links
 social_links:

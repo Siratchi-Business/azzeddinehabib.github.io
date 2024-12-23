@@ -1,0 +1,69 @@
+# General settings
+title: "Azzeddine Habib's Portfolio"
+description: "Explore my projects, skills, and experiences in technology."
+author:
+name: "Azzeddine Habib"
+email: "your-email@example.com"
+url: "https://azzeddinehabib.github.io" # Change this to your URL
+baseurl: "" # Leave this empty if you're using GitHub Pages
+url: "https://azzeddinehabib.github.io"
+
+# Theme
+theme: "minimal-mistakes-jekyll" # You can change the theme here
+
+# Social networks
+social_links:
+- name: "GitHub"
+url: "https://github.com/azzeddinehabib"
+icon: "fab fa-github"
+- name: "LinkedIn"
+url: "https://www.linkedin.com/in/azzeddinehabib/"
+icon: "fab fa-linkedin"
+- name: "Twitter"
+url: "https://twitter.com/azzeddinehabib"
+icon: "fab fa-twitter"
+
+# Navigation
+defaults:
+- scope:
+path: "" # Sitewide
+type: "posts"
+values:
+layout: "post"
+- scope:
+path: ""
+type: "pages"
+values:
+layout: "page"
+
+# Header Navigation
+header_pages:
+- index.md
+- about.md
+- projects.md
+- contact.md
+
+# Plugins (requires installation in _config.yml or Gemfile)
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
+
+# Extra Settings
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Portfolio Data
+portfolio:
+- title: "Project 1"
+image: "assets/images/project1.png"
+url: "/projects/project1/"
+description: "Brief description of the project."
+- title: "Project 2"
+image: "assets/images/project2.png"
+url: "/projects/project2/"
+description: "Brief description of the project."
